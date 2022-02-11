@@ -1,0 +1,118 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background: url("334698.jpg") fixed center;
+    display: block;
+}
+
+.container{
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.cont{
+    padding: 10px;
+    margin: 20px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+
+    background-color: rgb(42, 40, 40, 0.5);
+}
+
+.heading{
+    background-color: rgb(42, 40, 40, 0.5);
+    padding: 15px;
+    color: white;
+    margin: 40px 0 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search{
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.searchSubmit{
+    padding: 10px 50px;
+    width: fit-content;
+    background-color: transparent;
+    border: 2px solid blue;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: 20px;
+    color: white;
+}
+
+.searchSubmit:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+input{
+    padding: 10px 10px;
+    width: 400px;
+    border-radius: 4px;
+    opacity: .8;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+}
+
+.firstColumn{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0 5px 0;
+}
+
+.text{
+    padding: 10px 0px;
+}
+
+.values{
+    color: white;
+    background-color: rgb(29, 28, 28, 0.8);
+    padding: 10px 5px;
+    font-weight: bold;
+    width: 400px;
+    text-align: justify;
+}
+
+.download:hover{
+    color:blue;
+    cursor : pointer;
+}
+
+.linkButton{
+    padding: 5px;
+}
+
+.linkButton:hover{
+
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+#buttonHolder{
+    display: flex;
+    width: 60vw;
+    color: white;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.buttonHolderParent{
+    display: flex;
+    justify-content: center;
+}
