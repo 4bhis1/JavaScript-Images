@@ -97,7 +97,6 @@ let searched = () =>{
     console.log(txt)
     document.getElementById("searchValue").value=""
 
-    
     fetchingFromAPI(1)
 
 }
