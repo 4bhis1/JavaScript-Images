@@ -1,2 +1,3 @@
 # JavaScript-Images
-Fetch images from API and show
+
+https://4bhis1.github.io/JavaScript-Images/
